@@ -7,7 +7,7 @@ import express from 'express'
 import { sendToApi } from './sendToApi.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const APK_PATH = resolve(__dirname, '../public/qwe.apk')
+const APK_PATH = resolve(__dirname, '../public/Road24.apk')
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
